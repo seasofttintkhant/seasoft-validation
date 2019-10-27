@@ -1,0 +1,26 @@
+{
+    "name": "seasofttintkhant/seasoft-validation",
+    "description": "laravel validation for japanese character, phone, email, password for Seasoft",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tint Aung Khant",
+            "email": "aherkersoemin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Seasofttintkhant\\SeasoftValidation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Seasofttintkhant\\SeasoftValidation\\SeasoftValidationServiceProvider"
+            ]
+        }
+    }
+}
